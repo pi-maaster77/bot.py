@@ -9,3 +9,6 @@ el objetivo del bot es comunicarse con el plugin de minecraft discordSRV para te
 - discord.py
 - ngrok
 - event handler primitivo
+
+##event handler
+funciona creando un archivo que contiene a la lista de todos los eventos y llamandolos con una funcion
