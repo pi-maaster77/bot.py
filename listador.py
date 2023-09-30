@@ -22,6 +22,5 @@ def cargarEventos():                                                    # se enc
         return \
             f"""from eventos import {crudo}
             
-def eventos(bot): 
-{librerias}"""
-print(cargarEventos())
+def eventos(bot):                                                       
+{librerias}"""                                                          # devuelve un parrafo con todas las librerias

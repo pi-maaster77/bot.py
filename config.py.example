@@ -1,3 +1,5 @@
-token="token-del-bot"
-client=int(id-del-bot)
-guild=int(id-del-server-principal)
+token = "token del bot"
+consola = int(id canal de la consola de discordsrv)
+botchat = int(id canal general de discordsrv)
+general = int(id canal de comunicacion con los usuarios)
+server = str(puerto en el que se ejecuta el server principal)
