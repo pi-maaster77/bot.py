@@ -4,7 +4,7 @@ import discord, \
     config, \
     listador                                              # se importan las librerias necesarias  
 from discord.ext import commands
-listador.cargarEventos()                                  # se llama a la funcion que crea el archivo para importar los eventos
+exec(listador.cargarEventos())                                  # se llama a la funcion que crea el archivo para importar los eventos
 import lista_eventos                                      # se importa el archivo generado
 intents = discord.Intents.default()                       # se define lo que el bot puede o no hacer
 intents.message_content = True
