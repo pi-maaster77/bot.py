@@ -11,4 +11,4 @@ el objetivo del bot es comunicarse con el plugin de minecraft discordSRV para te
 - event handler primitivo
 
 ## event handler
-funciona creando un archivo que contiene a la lista de todos los eventos y llamandolos con una funcion
+funciona ejecutando un string que es practicamente otro archivo de python. El programa lo ejecuta con la funcion exec
